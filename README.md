@@ -1,6 +1,7 @@
 # WikiDeJogos
-A Wiki de Jogos é um site colaborativo (não inicialmente) onde a proposta é criar uma database de jogos recomendados pelos usuários.
 
-v0.0.1
-Primeiras páginas e layout geral sendo criados.
-Tudo feito em HTML e CSS simples e estático mesmo.
+WikiDeJogos is (or will be eventually) a collab effort similar to the wikipedia format, where people can add game recommendations. It is inspired by the /v/'s Recommendation Wiki, which is mostly abandoned.
+
+Since it's also my first actual project, it will evolve along my skills, but the idea is to develop it mainly in javascript.
+
+The anime girl is actually the os-tan from Windows XP.
