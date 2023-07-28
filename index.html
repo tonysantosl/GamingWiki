@@ -1,36 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <header></header>
-    <main class="apresentacao">
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Início</a>
+            <a class="cabecalho__menu__link" href="Jogos.html">Jogos</a>
+        </nav>
 
-        <!--class="" coloca um nome para a tag para ser usado no css para customiza-la individualmente -->
-        <!-- a tag section foi usada para agrupar o bloco de texto-->
-        
+    </header>
+    <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Bem-vindo(a) a <strong class="titulo-destaque">Wiki de Jogos®</strong></h1>
             <p class="apresentacao__conteudo__texto">Olá! Eu sou a Wiki-tan e vou te mostrar minhas recomendações de jogos legais para várias plataformas diferentes. Vamos conversar?</p>
                     <!-- criou-se uma classe "div" que serve apenas para agrupar dois elementos de outra parte de conteudo. é diferente de section-->
                 
                 
-                <div class="apresentacao__links">
-                    <h2 class="apresentacao__links__titulo">Links:</h2>
-                    <a class="apresentacao__links__botoes" href="http://twitter.com/horojoga">Twitter</a>
-                    <a class="apresentacao__links__botoes" href="http://github.com/tonyhoro">Github</a>
-                </div>
+                    <div class="apresentacao__links">
+                        <h2 class="apresentacao__links__titulo">Links:</h2>
+                        <div class="apresentacao__links__botoes-container">
+                            <a class="apresentacao__links__botoes" href="http://twitter.com/horojoga"><img src="./assets/twitter.png" width="36">Twitter</a>
+                            <a class="apresentacao__links__botoes" href="http://github.com/tonyhoro"><img src="./assets/github.png" width="36">Github</a>
+                        </div>
+                    </div>
+                          
         </section>
-        
-        <img src="xptan2.png" alt="Mascote anime do Windows XP">
-    
-    
-    
+        <img class="apresentacao__imagem" src="./assets/xptan2.png" alt="Mascote anime do Windows XP">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Tony Santos em 2023.</p>
+    </footer>
 </body>
 </html>
+
+
