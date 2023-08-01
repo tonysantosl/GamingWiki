@@ -64,7 +64,7 @@ body{
     color:var(--color-main);
     justify-content: space-between;
     gap:32px;
-    width: 50%;
+    width: auto;
     
 }
 
