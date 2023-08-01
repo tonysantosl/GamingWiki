@@ -9,7 +9,7 @@ Since it's also my first actual project, it will evolve along my skills, but the
 
 The anime girl is actually the os-tan from Windows XP.
 
-## Ferramentas utilizadas:
+## Tools used:
 
 * HTML
 
@@ -17,7 +17,7 @@ The anime girl is actually the os-tan from Windows XP.
 
 * Flex-box
 
-## Feito por:
+## Developed by:
 
 ### Tony santos
 
