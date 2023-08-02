@@ -21,7 +21,7 @@ The anime girl is actually the os-tan from Windows XP.
 
 ### Tony santos
 
-### Linkedin: [https://www.linkedin.com/school/aluracursos/](https://www.linkedin.com/in/tony-santos-89383715b/)
+### Linkedin: [Tony Santos](https://www.linkedin.com/in/tony-santos-89383715b/)
 
  
  
