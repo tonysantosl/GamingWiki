@@ -19,7 +19,7 @@ The anime girl is actually the os-tan from Windows XP.
 
 ## Developed by:
 
-### Tony santos
+### Tony Santos 
 
 ### Linkedin: [Tony Santos](https://www.linkedin.com/in/tony-santos-89383715b/)
 
