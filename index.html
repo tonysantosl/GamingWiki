@@ -1,41 +1,17 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GameWiki</title>
-        <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="/index.html">Início</a>
-            <a class="cabecalho__menu__link" href="/jogos.html">Jogos</a>
-        </nav>
-
-    </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Bem-vindo(a) a <strong class="titulo-destaque">Wiki de Jogos®</strong></h1>
-            <p class="apresentacao__conteudo__texto">Olá! Eu sou a Wiki-tan e vou te mostrar minhas recomendações de jogos legais para várias plataformas diferentes. Vamos conversar?</p>
-                    <!-- criou-se uma classe "div" que serve apenas para agrupar dois elementos de outra parte de conteudo. é diferente de section-->
-                
-                
-                    <div class="apresentacao__links">
-                        <h2 class="apresentacao__links__titulo">Links:</h2>
-                        <div class="apresentacao__links__botoes-container">
-                            <a class="apresentacao__links__botoes" href="http://twitter.com/horojoga"><img src="./assets/twitter.png" alt="botão twitter" width="36">Twitter</a>
-                            <a class="apresentacao__links__botoes" href="http://github.com/tonyhoro"><img src="./assets/github.png" alt="botao github" width="36">Github</a>
-                        </div>
-                    </div>
-                          
-        </section>
-        <img class="apresentacao__imagem" src="./assets/xptan2.png" alt="Mascote anime do Windows XP">
-    </main>
-    <footer class="rodape">
-        <p>Desenvolvido por Tony Santos em 2023.</p>
-    </footer>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameWiki - The Collaborative Gaming Encyclopedia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="GameWiki is a collaborative gaming encyclopedia with information on platforms, games, and more.">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
-
-
